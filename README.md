@@ -1,5 +1,5 @@
 ## Getting Started
-> e-commenre platform cloned based on ZARA.com which contains Latest trends in clothing for women, men & kids at TAKEITNOW online. Find new arrivals, fashion catalogs, collections & lookbooks every week.
+> e-commenre platform demo app based on ZARA.com which contains Latest trends in clothing for women, men & kids at TAKEITNOW online. Find new arrivals, fashion catalogs, collections & lookbooks every week.
 
 - All the contents like products, slider images on home page, are coming from backend.
 - everything can be managed from admin dashboard.
