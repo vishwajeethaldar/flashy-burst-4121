@@ -35,7 +35,7 @@ export default function ClientNavbar() {
     useEffect(()=>{
        if(Router.pathname.startsWith("/cart")){
         if(!auth.isAuth || auth.role!=="user"){
-            Router.push('/signin')
+            Router.push('/login')
           }
        }
        if(auth.isAuth){
@@ -99,7 +99,7 @@ export default function ClientNavbar() {
                        
                    
 
-                    {!auth.isAuth && <Link href="/signin">
+                    {!auth.isAuth && <Link href="/login">
                             Log in
                         </Link>}
                        

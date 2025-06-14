@@ -20,7 +20,7 @@ export interface User {
 }
 
 
-export default function Login() {
+ const Login = () => {
     const dispatch = useAppDispatch()
     const auth = useAppSelector(store=>store.auth)
 
@@ -211,3 +211,4 @@ useEffect(()=>{
     )
   }
   
+  export default Login

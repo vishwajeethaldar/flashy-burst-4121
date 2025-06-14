@@ -82,7 +82,7 @@ export default function Payment() {
             <Spacer />
             <Box p="4">
               <Text mt="2" fontSize="14">
-                {/* Already have an account? <Link href="/signIn"> Log in</Link>{" "} */}
+                {/* Already have an account? <Link href="/login"> Log in</Link>{" "} */}
               </Text>
             </Box>
           </Flex>

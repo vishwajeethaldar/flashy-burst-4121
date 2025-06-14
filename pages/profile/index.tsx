@@ -71,7 +71,7 @@ const ProfileDetails = () => {
     
     useEffect(()=>{
         if(!auth.isAuth){
-             Router.push("/signin")
+             Router.push("/login")
         }
         if(auth.isAuth){
             dispatch(getAuthSUer(auth.userId))
